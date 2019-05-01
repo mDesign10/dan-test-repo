@@ -1,0 +1,44 @@
+<!-- Copyright © CommonTime Ltd. 2016 -->
+<!DOCTYPE html>
+<html>
+<head lang="en" themes>
+    <meta charset="UTF-8">
+    <title>CommonTime Infinity Client</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="assets/css/styles.min.css"/>
+
+    <!-- Cordova -->
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+  
+
+    <script src="assets.min.js"></script>
+
+</head>
+<body>
+    <!-- Modal -->
+    <div class="modal" id="version-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Update available</h4>
+                </div>
+                <div class="modal-body">
+                    Do you wish to update to version <span class="version-number">(no version specified)</span> now?<br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="dismiss-button btn btn-default">Later</button>
+                    <button type="button" class="confirm-button btn btn-primary">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="view-frame" ng-class="{back: ($root.back)}"></div>
+
+    <script src="app.min.js"></script>
+
+</body>
+</html>

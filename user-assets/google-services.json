@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "321487242823",
+    "firebase_url": "https://rnd-clinicalmessaging.firebaseio.com",
+    "project_id": "rnd-clinicalmessaging",
+    "storage_bucket": "rnd-clinicalmessaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321487242823:android:778e2ad16dcaca8f",
+        "android_client_info": {
+          "package_name": "com.cti.cm.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321487242823-bo85gctn9qq0tbajs6f3o6orsa58kbdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpaYO8cnldQHvJtm7_55J6WsepvPpN3gE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321487242823-bo85gctn9qq0tbajs6f3o6orsa58kbdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
